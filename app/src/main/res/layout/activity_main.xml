@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ListView
+
+        android:id="@+id/list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        tools:ignore="InvalidId"
+        >
+
+    </ListView>
+
+
+    <ListView
+        android:id="@+id/list_item2"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:dividerHeight="1dp"
+        >
+    </ListView>
+    <Spinner
+        android:id="@+id/spinnerId"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        tools:ignore="InvalidId">
+
+    </Spinner>
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:hint="Put here"
+        android:textSize="25sp"
+        >
+    </EditText>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Calculation"
+        android:textSize="20sp">
+
+    </Button>
+</LinearLayout>

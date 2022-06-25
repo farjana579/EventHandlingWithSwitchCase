@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SimpleListItem</string>
+    <string-array name="countries">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>South kOrea</item>
+        <item>North korea</item>
+        <item>Brail</item>
+        <item>Whatever</item>
+    </string-array>
+    <string-array name="quantity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="price">
+        <item>10001</item>
+        <item>2010</item>
+        <item>3070</item>
+        <item>1200</item>
+        <item>5670</item>
+        <item>4510</item>
+
+    </string-array>
+
+</resources>
